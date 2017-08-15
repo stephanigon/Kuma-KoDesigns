@@ -16,7 +16,7 @@ $human= $_POST['human'] ;
 
 
 //Validate first
-if(empty($Name)||empty($Email))
+if(empty($name)||empty($email))
 {
    echo "Name and email are mandatory!";
    exit;
