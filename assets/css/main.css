@@ -2961,13 +2961,12 @@
 			}
 
 			.collapsible h1 {
+				display: inline-block;
+				/*margin: auto;*/
 				font-size: 2.5vw;
 				color: #fff !important;
 				font-family: 'Quicksand', sans-serif !important;
-				display: inline-block;
-				/*float: middle;*/
-				padding-left: 10%;
-				font-family: "Spectral", serif;
+				margin-left: 5%;
 			}
 
 			i.material-icons {
@@ -2979,6 +2978,7 @@
 			}
 
 			.collapsible-header {
+				position: relative;
 				height: 8vw;
 				border-bottom: solid #fff;
 				border-radius: 20px;
@@ -2996,18 +2996,77 @@
 			}
 
 			.collapsible-body {
+				position: relative;
 				background-color: #fff;
 				text-align: left;
 				padding-left: 5%;
 				padding-right: 5.5%;
-				padding-bottom: 2%
+				padding-bottom: 2%;
+				font-size: 1.2vw;
+				font-family: "Playfair Display", serif !important;
+				list-style-type: circle; 
+			}
+
+			.collapsible-body img {
+				display: inline-block;
+				margin-left: 2%;
+				align-content: center;
+				width: 100%;
+				height: auto;
+			}
+
+			.collapsible-body h5{
+				font-size: 1.8vw;
+				font-family: 'Playfair Display', serif;
 			}
 
 			.collapsible-body p {
 				font-size: 1.5vw;
-				font-family: "Raleway", sans-serif;
+			  font-family: "Quicksand", sans-serif !important;
 				line-height: 2vw;
+				display: list-item;
+				margin: 0;
+				padding: 0;
 			}
+
+			.collapsible-body #suggest {
+				width: 100%;
+			}
+
+			.collapsible-body div {
+				position: relative;
+				display: flex;
+				flex-wrap: wrap;
+				padding-left: 2%;
+			}
+
+			.collapsible-body .add {
+				float: left;
+				width: 35%;
+			}
+
+			.collapsible-body .add1 {
+				float: left;
+				padding-top: .5%;
+				width: 28%;
+			}
+
+			.collapsible-body #ecomm {
+				float: left;
+				padding-top: .5%;
+				width: 32%;
+			}
+
+			.collapsible-body .add2 {
+				padding-top: .5%;
+				width: 28%;
+			}
+
+			.collapsible-body .add3 {
+				padding-top: .5%;
+				width: 28%;
+			}
+
 
 			.collapsible-body a {
 				text-decoration: none;
