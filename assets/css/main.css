@@ -2983,14 +2983,6 @@
 				border-bottom: solid #fff;
 				border-radius: 20px;
 				cursor: pointer;
-			}
-
-			#odd {
-				background-color: rgba(240, 88, 72, .85);
-				width: 100%;
-			}
-
-			#even {
 				background-color: rgba(240, 88, 72, .85);
 				width: 100%;
 			}
